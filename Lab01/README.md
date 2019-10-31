@@ -34,15 +34,3 @@ Next:
 * Click `Log in`,
 
 ![Logged in](../images/ibmcloud-loggedin.png)
-
-## Get Started Email
-
-In preparation for the workshop, each participant also received a `Getting Started` email with information needed to run this workshop and unique for each participant including:
-
-* Your Web Terminal URL,
-* Your IKS Cluster Name,
-* Your Event Streams Service Name.
-
-
-1. Open a browser and load your unique `Web Terminal URL` assigned to you,
-2. 
