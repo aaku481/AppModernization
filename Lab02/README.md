@@ -20,6 +20,10 @@ In addition, you need your IBM Cloud credentials to be able to login:
 	```console
 	$ IBM_RG=<your-workshop-id> IBM_USERID=<your-ibm-id> IBM_PASSWORD='<your-ibm-password>' IBM_CFAPI=https://api.ng.bluemix.net IBM_ORG=<your-ibm-org> CLUSTER_NAME=<your-iks-cluster-name> ES_SVC_NAME=<your-eventstreams-service-name> REGION=us-south ZONE=dal10 ACCOUNTID=<your-account-id>
 	```
+
+	for us-east, use 
+	https://api.us-east.cf.cloud.ibm.com
+	wdc04
 	
 	* You should have received the required information in the `Get Started` email,
 
