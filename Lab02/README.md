@@ -41,13 +41,13 @@ In addition, you need your IBM Cloud credentials to be able to login:
 	OK
 	Export environment variables to start using Kubernetes.
 
-	export KUBECONFIG=/root/.bluemix/plugins/container-service/clusters/<your-clustername>/kube-config-<zone>-<your-clustername>.yml
+	export KUBECONFIG=/<your-home-dir>/.bluemix/plugins/container-service/clusters/<your-clustername>/kube-config-<zone>-<your-clustername>.yml
 	```
 
 * Set the KUBECONFIG to configure your current-context for kubectl, by copy-paste and running the export command returned in the previous step,
 
 	```console
-	$ export KUBECONFIG="/root/.bluemix/plugins/container-service/clusters/${CLUSTER_NAME}/kube-config-${ZONE}-${CLUSTER_NAME}.yml"
+	$ export KUBECONFIG="/${HOME}/.bluemix/plugins/container-service/clusters/${CLUSTER_NAME}/kube-config-${ZONE}-${CLUSTER_NAME}.yml"
 	```
 
 * Test your connection,
