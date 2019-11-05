@@ -24,7 +24,8 @@ In addition, you need your IBM Cloud credentials to be able to login:
 	* IBM_ORG=<your-ibm-org> 
 	* CLUSTER_NAME=<your-iks-cluster-name> 
 	* ES_SVC_NAME=<your-eventstreams-service-name> 
-	* REGION=us-south ZONE=dal10 
+	* REGION=<your-region> 
+	* ZONE=<your-zone> 
 	* ACCOUNTID=<your-account-id>
 
 
@@ -52,7 +53,7 @@ In addition, you need your IBM Cloud credentials to be able to login:
 
 	```
 	$ ibmcloud login -a cloud.ibm.com -r $REGION -g $IBM_RG -u $IBM_USERID -p "${IBM_PASSWORD}" -c $ACCOUNTID
-	$ ibmcloud target --cf-api "${IBM_CFAPI}" -s dev -o $IBM_ORG
+	$ ibmcloud target --cf-api "${IBM_CFAPI}" 
 	```
 
 * Download the configuration for your cluster
